@@ -1,0 +1,31 @@
+{
+    "name": "arturgssjr/presto-client-php",
+    "description": "Cliente PHP para PrestoDB via protocolo HTTP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Artur Gonçalves de Souza e Silva Júnior",
+            "email": "artur.junior@soluti.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2.5",
+        "ext-curl": "*",
+        "psr/log": "^1.1",
+        "ramsey/uuid": "^4.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "fig/http-message-util": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArturJr\\PrestoClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArturJr\\PrestoClientTests\\": "tests/"
+        }
+    }
+}
