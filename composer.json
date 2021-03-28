@@ -15,7 +15,7 @@
         "ext-curl": "*",
         "psr/log": "^1.1",
         "ramsey/uuid": "^4.0",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.0.1",
         "fig/http-message-util": "^1.1"
     },
     "autoload": {
