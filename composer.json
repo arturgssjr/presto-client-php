@@ -11,7 +11,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.2.5 || ^8.0.3",
         "ext-curl": "*",
         "psr/log": "^1.1",
         "ramsey/uuid": "^4.0",
